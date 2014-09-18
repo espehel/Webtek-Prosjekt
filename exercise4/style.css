@@ -1,0 +1,22 @@
+body{
+	width: 40%;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FCFCFC;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+footer{
+	height: 100px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+
