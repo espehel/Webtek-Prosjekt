@@ -10,6 +10,7 @@ header{
 	width: 100%;
 	text-align: center;
 	padding-top: 20px;
+	background-color: orange;
 }
 
 footer{
@@ -17,4 +18,12 @@ footer{
 	width: 100%;
 	clear: both;
 	text-align: center;
+}
+
+ul {
+	list-style-type:none
+}
+
+div.menu {
+	background-color: #F7D358;
 }
