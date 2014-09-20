@@ -9,8 +9,8 @@ body{
 header{
 	width: 100%;
 	text-align: center;
-	padding-top: 20px;
-	background-color: orange;
+	background-color: #35352F;
+	color: white;
 }
 
 footer{
