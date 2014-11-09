@@ -1,0 +1,80 @@
+html, body {
+    position: relative;
+    margin-top: auto;
+}
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    float: left;
+    width: 450px;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    width: 65%;
+    float: right;
+    padding:14px;
+}
+aside {
+    background-color: aqua;
+    width: 35%;
+    float: left;
+    padding:10px;
+    height: 370px;
+    
+}
+section {
+    background-color: blueviolet;
+    width: 60%;
+    float: left;
+    padding:10px;
+    height: 370px;
+}
+article {
+    width: 100%;
+    float: left;
+    padding:10px;
+    
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+ul { list-style-type: none; }
+li {  display: inline;  }
+
+#map-canvas {
+    width: 60%;
+    height: 100px;
+    float: left;
+    padding:100px;
+}
+
+.contactus {
+    background-color: pink;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    
+}
+
+.booktable {
+    background-color: chartreuse;
+    width: 750px;
+    float: left;
+    padding: 10px;
+
+}
+
+.specialoffers {
+    background-color: gold;
+    width: 300px;
+    float: left;
+    padding: 10px;
+}

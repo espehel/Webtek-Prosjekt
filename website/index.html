@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="utf-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq07IuAOhftd85HtibqeQhOEyKz7CXZaQ">
+    </script>
+    <script type="text/javascript">
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(63.430515,10.395053);
+            var mapOptions = {
+                center: myLatlng,
+                zoom: 16
+            };
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+            // Place a draggable marker on the map
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                draggable:true,
+                title:"Drag me!"
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+    <title>Bilutleie Norge</title>
+</head>
+<body>
+
+
+<header>
+    <h1>Bilutleie Norge</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="#">Utleievilkår</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+</nav>
+
+
+<aside>
+    <h1>Finn oss</h1>
+    <div id="map-canvas"></div>
+</aside>
+
+<section>
+    <h1>SlideShow</h1>
+</section>
+
+
+
+
+<article class="contactus">
+        <h1>Kontakt oss</h1>
+        <b>Adresse:</b> <br>
+        Kongens gate 16 <br>
+        7013 Trondheim, Norge <br><br>
+        <b>Tlf:</b> 12345678
+</article>
+
+
+
+
+<article class="booktable">
+    <h1>Bestill</h1>
+
+</article>
+
+
+
+
+
+<article class="specialoffers">
+    <h1>Tilbud</h1>
+
+</article>
+
+
+<footer>
+    Copyright © dreamteam
+</footer>
+
+</body>
+</html>
