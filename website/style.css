@@ -3,7 +3,7 @@ html, body {
     margin-top: auto;
 }
 header {
-    background-color:black;
+    background-color:white;
     color:white;
     text-align:center;
     padding:5px;
@@ -11,14 +11,31 @@ header {
     width: 450px;
 }
 nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    width: 65%;
-    float: right;
-    padding:14px;
-}
+	  font-size:28px;
+      width: 65%;
+	  height:100%;
+      float: right;
+      margin: 0 0 3em 0;
+      padding: 14px;
+      list-style: none;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #ccc; 
+      border-top: 1px solid #ccc; }
+nav li {
+      float: left; }
+nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc; }
+nav li a:hover {
+      color: #c00;
+      background-color: #fff; }
+
 aside {
-    background-color: aqua;
+    background-color: #069;
     width: 35%;
     float: left;
     padding:10px;
@@ -26,11 +43,12 @@ aside {
     
 }
 section {
-    background-color: blueviolet;
+    background-color: #069;
     width: 60%;
     float: left;
     padding:10px;
     height: 370px;
+
 }
 article {
     width: 100%;
