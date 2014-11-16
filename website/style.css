@@ -67,6 +67,20 @@ footer {
 ul { list-style-type: none; }
 li {  display: inline;  }
 
+
+/*--------------- FAQ -----------------------------*/
+#faqList {
+}
+
+#faqList li {
+    display: block;
+    background-color: ivory;
+    border: solid 2px black;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
 #map-canvas {
     width: 60%;
     height: 100px;
