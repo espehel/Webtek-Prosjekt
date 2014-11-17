@@ -4,58 +4,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-
-
-
     <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq07IuAOhftd85HtibqeQhOEyKz7CXZaQ">
     </script>
-    <script type="text/javascript">
-        function initialize() {
-            var myLatlng = new google.maps.LatLng(63.430515,10.395053);
-            var mapOptions = {
-                center: myLatlng,
-                zoom: 16
-            };
-            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-            // Place a draggable marker on the map
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                map: map,
-                draggable:true,
-                title:"Drag me!"
-            });
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-		
-		var slideimages=new Array()
-		var slidelinks=new Array()
-		function slideshowimages(){
-		
-		for (i=0;i<slideshowimages.arguments.length;i++){
-			slideimages[i]=new Image()
-			slideimages[i].src=slideshowimages.arguments[i]
-			}
-		}
-
-		function slideshowlinks(){
-		for (i=0;i<slideshowlinks.arguments.length;i++)
-		slidelinks[i]=slideshowlinks.arguments[i]
-		}
-
-		function gotoshow(){
-		if (!window.winslide||winslide.closed)
-		winslide=window.open(slidelinks[whichlink])
-		else
-		winslide.location=slidelinks[whichlink]
-		winslide.focus()
-		}
-
-
-    </script>
-
-
+    <script src="scripts/map.js"></script>
+    <script src="scripts/slideshow.js"></script>
 
     <title>Bilutleie Norge</title>
 </head>
@@ -67,9 +20,9 @@
 </header>
 <nav>
 
-  <li><a href="index.html">Hjem</a></li>
-        <li><a href="#">Utleievilkår</a></li>
-        <li><a href="faq/faq.html">FAQ</a></li>
+  	<li><a href="index.html">Hjem</a></li>
+	<li><a href="#">Utleievilkår</a></li>
+    <li><a href="faq/faq.html">FAQ</a></li>
 
 </nav>
 
@@ -81,32 +34,12 @@
 
 <section>
     <h1 style="color:#FFF">SlideShow</h1>
-        <a href="javascript:gotoshow()"><img src="utleiebiler/suv.jpg" name="slide" border=0 width=500 height=300></a>
+        <a href="javascript:gotoshow()"><img src="img/utleiebiler/suv.jpg" name="slide" border=0 width=500 height=300></a>
     <script>
     <!--
     
     //link til bilder, og til hvor det skal linkes
-    slideshowimages("utleiebiler/suv.jpg","utleiebiler/stasjonsvogn.jpg","utleiebiler/liten.jpg","utleiebiler/luksus.jpg","utleiebiler/okonomi.jpg") 
-	
-    slideshowlinks("link1","link2","link3","link4","link4")
-    
-    var slideshowspeed=2000
-    
-    var whichlink=0
-    var whichimage=0
-    
-	function slideit(){
-    if (!document.images)
-		return
-		document.images.slide.src=slideimages[whichimage].src
-		whichlink=whichimage
-		if (whichimage<slideimages.length-1)
-		whichimage++
-    else
-		whichimage=0
-		setTimeout("slideit()",slideshowspeed)
-    }
-    slideit()
+
     </script>
 </section>
 
