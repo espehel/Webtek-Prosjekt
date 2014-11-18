@@ -20,7 +20,8 @@ nav {
       list-style: none;
       background-color: #f2f2f2;
       border-bottom: 1px solid #ccc; 
-      border-top: 1px solid #ccc; }
+      border-top: 1px solid #ccc;
+  }
 nav li {
       float: left; }
 nav li a {
@@ -80,6 +81,21 @@ li {  display: inline;  }
     padding: 10px;
     margin: 10px 0;
 }
+
+/*-------------------Contact----------------------------*/
+#contactContent {
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.contactBox {
+	margin-top: 50px;
+	border: solid 2px black;
+	padding: 20px;
+}
+
 
 #map-canvas {
     width: 60%;
