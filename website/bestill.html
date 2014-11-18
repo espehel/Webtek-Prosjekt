@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="utf-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Bilutleie Norge</title>
+    <script src="scripts/bilinfo.js"></script>
+</head>
+<body>
+
+
+<header>
+<img src="img/logo.jpg" width="350" height="120" alt="logo">
+</header>
+<nav>
+  	<li><a href="index.html">Hjem</a></li>
+	<li><a href="#">Utleievilkår</a></li>
+    <li><a href="faq/faq.html">FAQ</a></li>
+    <li><a href="contact.html">Kontakt oss</a></li>
+</nav>
+
+<div id="contactContent">
+		<h1> Bestill leiebil</h1>
+       
+        <div id="contactInformation" class="contactBox" align="center">
+        
+            <li><a href="javascript:ReplaceContentInContainer('bilinfo','Dette er det billigste alternativet. Den har plass til 5 personer og litt baggasje')"> Økonomi </a></li>
+            <li><a href="javascript:ReplaceContentInContainer('bilinfo','Liten')"> Liten </a></li>
+            <li><a href="javascript:ReplaceContentInContainer('bilinfo','Medium')"> Medium </a></li>
+            <li><a href="javascript:ReplaceContentInContainer('bilinfo','Økonomi')"> Stor </a></li>
+            <li><a href="javascript:ReplaceContentInContainer('bilinfo','Økonomi')"> Varebil </a></li>
+        </div>
+        
+          <div id="bilinfo" class="contactBox"></div>
+        
+		<form action="#" method="post" >
+			<div id="form" class="contactBox">
+				<h2>Velg ønsket leilebil:</h2>
+				<label for="name">Navn:</label>
+			  <input type="text" name="name" required><br>
+                
+                <label for="adresse">Adresse:</label>
+				<input type="text" name="adresse" required><br>
+                
+				<label for="email">Email:</label>
+			  <input type="text" name="email" required><br><br>
+                
+                
+                <label for="bil">Biltype:</label>
+			  <select name="bil" required>
+                <option value>Velg bil</option>
+                <option value=1>Økonomi</option>
+                <option value=2>Liten</option>
+                <option value=3>Medium</option>
+                <option value=4>Stor</option>
+                <option value=5>Varebil</option>
+			  </select><br />
+                
+              <label>Utlånsdato:</label>
+			  <input type="date" name="utlånsdato" required><br />
+              <label>Leveringsdato:</label>
+			  <input type="date" name="leveringsdato" required><br />
+
+				<label>Kommentar:</label><br />
+			  <textarea name="comments" rows=7 cols=50></textarea><br />
+
+
+				<br>
+				<input type="submit" value="Submit">
+		  </div>
+  </form>
+		
+
+</div>
+<footer>
+    Copyright © dreamteam
+</footer>
+</body>
+</html>
