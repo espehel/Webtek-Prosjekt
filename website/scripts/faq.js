@@ -10,7 +10,7 @@ window.addEventListener("load", function(event){
   		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
   	}
 
-xmlhttp.open("GET","faq.xml",false);
+xmlhttp.open("GET","data/faq.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
 
