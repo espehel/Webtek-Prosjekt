@@ -82,7 +82,7 @@ li {  display: inline;  }
     margin: 10px 0;
 }
 
-/*-------------------Contact----------------------------*/
+/*------------------- Contact ----------------------------*/
 #contactContent {
 	margin-right: auto;
 	margin-left: auto;
@@ -94,6 +94,28 @@ li {  display: inline;  }
 	margin-top: 50px;
 	border: solid 2px black;
 	padding: 20px;
+}
+/*---------------------- Terms ---------------------------*/
+#termsContent {
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	padding-left:25%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 50%;
+}
+#termsContent ul {
+	list-style-type: disc;
+}
+#termsContent li {
+	display: block;
+}
+ol.a{
+	list-style-type: lower-alpha;
+}
+ol.i{
+	list-style-type: lower-roman;
 }
 
 
