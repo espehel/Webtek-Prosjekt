@@ -117,6 +117,32 @@ ol.a{
 ol.i{
 	list-style-type: lower-roman;
 }
+/*-------------------- Cars ------------------------------*/
+#carsContent{
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	padding-left: 15%;
+}
+
+.carBox {
+	padding: 50px;
+	float: left;
+}
+
+/*--------------------- Car ------------------------------*/
+.carContainer {
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	padding-left:20%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 50%;
+}
+table,td { 
+	border:1px solid black; 
+}
 
 
 #map-canvas {
