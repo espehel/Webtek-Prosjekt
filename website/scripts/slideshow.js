@@ -6,7 +6,7 @@ window.addEventListener("load", function(event){
 
     slideshowimages("img/utleiebiler/suv.jpg","img/utleiebiler/stasjonsvogn.jpg","img/utleiebiler/liten.jpg","img/utleiebiler/luksus.jpg","img/utleiebiler/okonomi.jpg") 
 	
-    slideshowlinks("bestill.html","bestill.html","bestill.html","bestill.html","bestill.html")
+    slideshowlinks("cars/suv.html","cars/stasjonsvogn.html","cars/liten.html","cars/luksus.html","cars/okonomi.html")
     
     slideshowspeed=2000
     
