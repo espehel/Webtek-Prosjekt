@@ -1,71 +1,98 @@
-body {
-      background-color: #555; 
-      font: small/1.3 Arial, Helvetica, sans-serif;
-	 }
+html,body {
+	font-family: "futura-pt", sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+}
 
 #wrap {
-	  padding:20px;
-      width: 1500px;
-      margin: 0 auto;
-      background-color: #fff; }
+	clear: both;
+	min-height: 100%;
+	height: auto; !important;
+	margin-bottom: -225px;
+}
 
 header {
-	background-color: white
-	color: white;
+	display: block;
+	height: 380px;
+	position: relative;
 	text-align: center;
-	padding: 5px;
-	height: 400px;
 	width: 100%;
-	font-size: 50px;
+}
+
+.container {
+	margin-bottom: 40px;
+	max-width: 68em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container-nav{
+	margin: 15px 0;
+	display: block;
+	float: left;
+	width: 100%;
+	margin-right: 0;
 }
 
 nav {
-	font-size: 28px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	height: 50px;
+	display: block;
 	float: left;
-	margin: 0 0 3em 0;
-	padding: 5px;
-	list-style: none;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
-	width: 100%; 
-	margin-left: auto;
-	margin-right:auto;
-  }
+	width: 100%;
+}
+
+.show-container-all:last-child{
+	margin-right: 0;
+}
+
+.show-container-all .description{
+	font-weight: lighter;
+}
+
 nav li {
       float: left ;
-	  }
+}
+
 nav li a {
       display: block;
       padding: 8px 15px;
       text-decoration: none;
       font-weight: bold;
-      color: #069;
-      border-right: 1px solid #ccc; }
-nav li a:hover {
-      color: #c00;
-      background-color: #fff;
-	  font-size:36; }
+      color: black;
+}
 
+nav li a:hover {
+      color: #95b0cc;
+}
+
+section{
+	float: left;
+	padding-right: 50px;
+}
+
+.description{
+	float: left;
+	padding-left: 5px;
+}
 
 footer {
-    background-color:black;
+	width:100%;
+	height: 50px;
+	position:relative;
+	bottom: 0;
+	margin-bottom:-250px;
+	background-color: black;
     color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
+	display: table;
+	text-align: center;
+	padding-top: 1em;
 }
 
-ul { list-style-type: none; }
-li {  display: inline;  }
-
+li {  display: inline;  margin: 0 80px 20px 0;}
+p { margin: 1em 0;}
 
 /*--------------- FAQ -----------------------------*/
-#faqList {
-}
-
 #faqList li {
     display: block;
     background-color: ivory;
@@ -79,7 +106,7 @@ li {  display: inline;  }
 #content {
 	margin-right: auto;
 	margin-left: auto;
-	width: 40%;
+	width: 70%;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
@@ -87,4 +114,9 @@ li {  display: inline;  }
 	margin-top: 50px;
 	border: solid 2px black;
 	padding: 20px;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 300px;
 }

@@ -3,26 +3,31 @@
 <head lang="utf-8">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <script src="scripts/bilinfo.js.js"></script>
     <title>Bilutleie Norge</title>
-    <script src="scripts/bilinfo.js"></script>
 </head>
 <body>
-<div id="wrap">
 
-<header><img src="img/header.jpg" width="1454" height="396" alt=""/></header>
-<nav>
-  	<li><a href="index.html">Hjem</a></li>
-	<li><a href="terms.html">Utleievilkår</a></li>
-    <li><a href="cars.html">Våre biler</a></li>
-    <li><a href="faq/faq.html">FAQ</a></li>
-    <li><a href="contact.html"> Kontakt oss</a></li>
-    <li><a href="bestill.html">Bestill bil!</a></li>
-</nav>
+<div id="wrap">
+    <header>
+        <img src="img/header.png" alt="header"/>
+    </header>
+
+    <div class="container">
+        <div id="container-nav">
+            <nav>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="terms.html">Utleievilkår</a></li>
+                <li><a href="cars.html">Våre biler</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Kontakt oss</a></li>
+                <li><a href="bestill.html">Bestill bil</a></li>
+            </nav>
+        </div>
 
 <div id="content">
 	<h1> Bestill leiebil</h1>
-       
+
         
             <li><a href="javascript:ReplaceContentInContainer('bilinfo','Dette er det billigste alternativet. Den har plass til 5 personer og litt baggasje')">|  Økonomi  |</a></li>
             <li><a href="javascript:ReplaceContentInContainer('bilinfo','Liten har mer ekstra utstyr enn økonomi bilen. Blant annet navigasjon og aircondition. Denne bilen har også noe mer baggasjeplass enn økonomi. ')">|  Liten  |</a></li>
@@ -69,10 +74,12 @@
 				<input type="submit" value="Submit">
 		  </div>
   </form>
+
+    </div>
 		
 </div>
 <footer>
-    Copyright © dreamteam
+    <p>Copyright © t-townbilutleie.no</p>
 </footer>
 </div>
 </body>

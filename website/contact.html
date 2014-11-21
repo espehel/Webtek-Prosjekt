@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head lang="utf-8">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>Bilutleie Norge</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript"
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq07IuAOhftd85HtibqeQhOEyKz7CXZaQ">
+	</script>
+	<script src="scripts/map.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Bilutleie Norge</title>
 </head>
 <body>
-<div id="wrap">
 
-<header><img src="img/header.jpg" width="1454" height="396" alt=""/></header>
-<nav>
-  	<li><a href="index.html">Hjem</a></li>
-	<li><a href="terms.html">Utleievilkår</a></li>
-    <li><a href="cars.html">Våre biler</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="contact.html">Kontakt oss</a></li>
-    <li><a href="bestill.html">Bestill bil!</a></li>
-</nav>
+<div id="wrap">
+	<header>
+		<img src="img/header.png" alt="header"/>
+	</header>
+
+
+	<div class="container">
+		<div id="container-nav">
+			<nav>
+				<li><a href="index.html">Hjem</a></li>
+				<li><a href="terms.html">Utleievilkår</a></li>
+				<li><a href="cars.html">Våre biler</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contact.html">Kontakt oss</a></li>
+				<li><a href="bestill.html">Bestill bil</a></li>
+			</nav>
+		</div>
 
 <div id="content">
+
 		<h1> Kontakt oss</h1>
 		<form action="#" method="post" >
 				<h2>Fyll inn skjemaet for henvendelser til oss</h2>
@@ -34,11 +45,20 @@
 				<input type="submit" value="Submit">
 		</form>
 
+
+
+	<div class="contentBox">
+			<h1>Finn oss</h1>
+			<div id="map-canvas"></div>
+	</div>
+
+	<div class="contentBox">
         	<h2>Kontakt informasjon</h2>
         	<b>Adresse:</b> <br>
        		Kongens gate 16 <br>
         	7013 Trondheim, Norge <br><br>
         	<b>Tlf:</b> 12345678
+	</div>
 
     	<div id="employees" class="contentBox">
         	<p>Kontakt Sjefen: Tuyet Trang Thi Pham tlf: 908 07 060</p>
@@ -46,9 +66,9 @@
 			<p>Kontakt Nestnestsjefen: Espen Hellerud tlf: 567 32 987</p>
         </div>
 </div>
-<footer>
-    Copyright © dreamteam
-</footer>
-</div>
+
+<!--<footer>
+	<p>Copyright © t-townbilutleie.no</p>
+</footer>-->
 </body>
 </html>
