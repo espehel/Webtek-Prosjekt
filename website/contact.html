@@ -16,7 +16,6 @@
 		<img src="img/header.png" alt="header"/>
 	</header>
 
-
 	<div class="container">
 		<div id="container-nav">
 			<nav>
@@ -29,46 +28,53 @@
 			</nav>
 		</div>
 
-<div id="content">
 
-		<h1> Kontakt oss</h1>
-		<form action="#" method="post" >
-				<h2>Fyll inn skjemaet for henvendelser til oss</h2>
-				<label for="name">Name:</label>
-				<input type="text" name="name" required="required"><br>
-				<label for="email">Email:</label>
-				<input type="text" name="email" required="required"><br>
-				<label for="comments">Melding:</label>
-				<br>
-				<textarea rows="4" cols="50" name="message" required></textarea>
-				<br>
-				<input type="submit" value="Submit">
-		</form>
+		<div id="content">
+			<h1> Kontakt oss</h1>
+			<form action="#" method="post" >
+				<fieldset class="contentBox">
+					<h2>Fyll inn skjemaet for henvendelser til oss</h2>
 
+					<label class="field" for="name">Name:</label>
+					<input type="text" name="name" required="required"><br>
 
+					<label class="field" for="email">Email:</label>
+					<input type="text" name="email" required="required"><br>
 
-	<div class="contentBox">
-			<h1>Finn oss</h1>
-			<div id="map-canvas"></div>
+					<label class="field" for="comments">Melding:</label>
+					<textarea rows="4" cols="50"  class="field" name="message" required></textarea><br>
+					<input type="submit" value="Submit">
+
+				</fieldset>
+			</form>
+
+			<div class="contentBox">
+				<h1>Finn oss</h1>
+				<div id="map-canvas"></div>
+			</div>
+
+			<div class="contentBox">
+				<h2>Kontakt informasjon</h2>
+				<b>Adresse:</b> <br>
+				Kongens gate 16 <br>
+				7013 Trondheim, Norge <br><br>
+				<b>Tlf:</b> 12345678
+			</div>
+
+			<div id="employees" class="contentBox">
+				<p>Kontakt Sjefen: Tuyet Trang Thi Pham tlf: 908 07 060</p>
+				<p>Kontakt Nestsjefen: Alf Håkon Lille-Mæhlum tlf: 101 23 919</p>
+				<p>Kontakt Nestnestsjefen: Espen Hellerud tlf: 567 32 987</p>
+			</div>
+		</div>
 	</div>
-
-	<div class="contentBox">
-        	<h2>Kontakt informasjon</h2>
-        	<b>Adresse:</b> <br>
-       		Kongens gate 16 <br>
-        	7013 Trondheim, Norge <br><br>
-        	<b>Tlf:</b> 12345678
-	</div>
-
-    	<div id="employees" class="contentBox">
-        	<p>Kontakt Sjefen: Tuyet Trang Thi Pham tlf: 908 07 060</p>
-			<p>Kontakt Nestsjefen: Alf Håkon Lille-Mæhlum tlf: 101 23 919</p>
-			<p>Kontakt Nestnestsjefen: Espen Hellerud tlf: 567 32 987</p>
-        </div>
-</div>
-
-<!--<footer>
-	<p>Copyright © t-townbilutleie.no</p>
-</footer>-->
+	<footer>
+		<i>
+			Tuyet Trang Thi Pham<br>
+			Alf Håkon Lille-Mæhlum<br>
+			Espen Hellerud<br>
+		</i><br>
+		Copyright © t-townbilutleie.no
+	</footer>
 </body>
 </html>
