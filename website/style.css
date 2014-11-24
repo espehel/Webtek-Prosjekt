@@ -77,11 +77,12 @@ section{
 }
 
 footer {
-	position: static;
+	position: fixed;
 	left: 0px;
 	bottom: 0px;
 	width: 100%;
     padding: 10px;
+    margin-top: 100px;
 	background-color: black;
     color:white;
 	text-align: center;
@@ -94,7 +95,7 @@ p { margin: 1em 0;}
 /*--------------- FAQ -----------------------------*/
 #faqList li {
     display: block;
-    background-color: ivory;
+    background-color: pink;
     border: solid 2px black;
     margin-bottom: 20px;
     padding: 10px;
