@@ -6,7 +6,6 @@ html,body {
 	height: 100%;
 }
 
-
 header {
 	display: block;
 	height: 380px;
@@ -22,7 +21,7 @@ header {
 	min-height: 100%;
 	height: auto; !important;
 	margin-bottom: -225px;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 #container-nav{
@@ -30,7 +29,6 @@ header {
 	display: block;
 	float: left;
 	width: 100%;
-	margin-right: 0;
 }
 
 .container {
@@ -101,7 +99,6 @@ p { margin: 1em 0;}
 #faqList li {
 	display: block;
 	background-color: #e6e3af;
-	border: solid 2px black;
 	margin-bottom: 20px;
 	padding: 10px;
 }
@@ -126,8 +123,9 @@ p { margin: 1em 0;}
 }
 .contentBox {
 	margin-top: 50px;
-	border: solid 2px black;
+	background-color: #e6e3af;
 	padding: 20px;
+	border: 0px;
 }
 /*------------------- Google map ----------------------------*/
 
@@ -145,5 +143,3 @@ ol.i{	list-style-type: lower-roman;  }
 .sitemap-link{
 	color: #FFFFFF;
 }
-
-/*-------------------- Forms---------------------------*/
