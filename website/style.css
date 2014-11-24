@@ -11,6 +11,7 @@ html,body {
 	min-height: 100%;
 	height: auto; !important;
 	margin-bottom: -225px;
+	margin: 0 auto
 }
 
 header {
@@ -24,8 +25,7 @@ header {
 .container {
 	margin-bottom: 40px;
 	max-width: 68em;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto
 }
 
 #container-nav{
