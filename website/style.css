@@ -77,16 +77,6 @@ section{
 }
 
 footer {
-<<<<<<< HEAD
-
-=======
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-	width: 100%;
-    padding: 10px;
-    margin-top: 100px;
->>>>>>> FETCH_HEAD
 	background-color: black;
     color:white;
 	text-align: center;
