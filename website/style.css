@@ -116,3 +116,12 @@ p { margin: 1em 0;}
 	width: 100%;
 	height: 300px;
 }
+
+/*---------------------- Terms ---------------------------*/
+
+ol.a{
+	list-style-type: lower-alpha;
+}
+ol.i{
+	list-style-type: lower-roman;
+}
