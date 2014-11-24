@@ -98,7 +98,6 @@ p { margin: 1em 0;}
     border: solid 2px black;
     margin-bottom: 20px;
     padding: 10px;
-    margin: 10px 0;
 }
 /*
 /*------------------- Content design ----------------------------*/
@@ -114,6 +113,7 @@ p { margin: 1em 0;}
 	border: solid 2px black;
 	padding: 20px;
 }
+/*------------------- Google map ----------------------------*/
 
 #map-canvas {
 	width: 100%;
