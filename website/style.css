@@ -5,6 +5,19 @@ html,body {
 	border: 0;
 	height: 100%;
 }
+fieldset {
+	width: 500px;
+}
+label.field{
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+input.tetbox-300{
+	width: 300px;
+	float: left;
+}
 
 #wrap {
 	clear: both;
