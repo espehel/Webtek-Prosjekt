@@ -67,14 +67,13 @@ nav li a:hover {
 	color: #95b0cc;
 }
 
-section{
-	float: left;
-	padding-right: 50px;
-}
-
 .description{
 	float: left;
 	padding-left: 5px;
+}
+
+.img-car{
+	text-align: center;
 }
 
 footer {
