@@ -11,71 +11,67 @@
 </head>
 <body>
 
-<div id="wrap">
-	<header>
-	</header>
+<header></header>
 
-	<div class="container">
-		<div id="container-nav">
-			<nav>
-				<li><a href="index.html">Hjem</a></li>
-				<li><a href="terms.html">Utleievilkår</a></li>
-				<li><a href="cars.html">Våre biler</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-				<li><a href="contact.html">Kontakt oss</a></li>
-				<li><a href="bestill.html">Bestill bil</a></li>
-			</nav>
+<div class="container">
+	<nav>
+		<li><a href="index.html">Hjem</a></li>
+		<li><a href="terms.html">Utleievilkår</a></li>
+		<li><a href="cars.html">Våre biler</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="contact.html">Kontakt oss</a></li>
+		<li><a href="bestill.html">Bestill bil</a></li>
+	</nav>
+
+
+	<div id="content">
+		<h1> Kontakt oss</h1>
+		<form action="#" method="post" >
+			<fieldset class="contentBox">
+				<h2>Fyll inn skjemaet for henvendelser til oss</h2>
+
+				<label class="field" for="name">Name:</label>
+				<input type="text" name="name" required="required"><br>
+
+				<label class="field" for="email">Email:</label>
+				<input type="text" name="email" required="required"><br>
+
+				<label class="field" for="comments">Melding:</label>
+				<textarea rows="4" cols="50"  class="field" name="message" required></textarea>
+				<div class="space">
+					<input type="submit" value="Submit">
+				</div>
+			</fieldset>
+		</form>
+
+		<div class="contentBox">
+			<h2>Finn oss</h2>
+			<div id="map-canvas"></div>
 		</div>
 
+		<div class="contentBox">
+			<h2>Kontakt informasjon</h2>
+			<b>Adresse:</b> <br>
+			Kongens gate 16 <br>
+			7013 Trondheim, Norge <br><br>
+			<b>Tlf:</b> 12345678
+		</div>
 
-		<div id="content">
-			<h1> Kontakt oss</h1>
-			<form action="#" method="post" >
-				<fieldset class="contentBox">
-					<h2>Fyll inn skjemaet for henvendelser til oss</h2>
-
-					<label class="field" for="name">Name:</label>
-					<input type="text" name="name" required="required"><br>
-
-					<label class="field" for="email">Email:</label>
-					<input type="text" name="email" required="required"><br>
-
-					<label class="field" for="comments">Melding:</label>
-					<textarea rows="4" cols="50"  class="field" name="message" required></textarea>
-					<div class="space">
-						<input type="submit" value="Submit">
-					</div>
-				</fieldset>
-			</form>
-
-			<div class="contentBox">
-				<h2>Finn oss</h2>
-				<div id="map-canvas"></div>
-			</div>
-
-			<div class="contentBox">
-				<h2>Kontakt informasjon</h2>
-				<b>Adresse:</b> <br>
-				Kongens gate 16 <br>
-				7013 Trondheim, Norge <br><br>
-				<b>Tlf:</b> 12345678
-			</div>
-
-			<div id="employees" class="contentBox">
-				<p>Kontakt Sjefen: Tuyet Trang Thi Pham tlf: 908 07 060</p>
-				<p>Kontakt Nestsjefen: Alf Håkon Lille-Mæhlum tlf: 101 23 919</p>
-				<p>Kontakt Nestnestsjefen: Espen Hellerud tlf: 567 32 987</p>
-			</div>
+		<div id="employees" class="contentBox">
+			<p>Kontakt Sjefen: Tuyet Trang Thi Pham tlf: 908 07 060</p>
+			<p>Kontakt Nestsjefen: Alf Håkon Lille-Mæhlum tlf: 101 23 919</p>
+			<p>Kontakt Nestnestsjefen: Espen Hellerud tlf: 567 32 987</p>
 		</div>
 	</div>
-	<footer>
-		<i>
-			Tuyet Trang Thi Pham<br>
-			Alf Håkon Lille-Mæhlum<br>
-			Espen Hellerud<br>
-		</i><br>
-		Copyright © t-townbilutleie.no
-		<br><a href="sitemap.html" class="sitemap-link">Sitemap</a>
-	</footer>
+</div>
+<footer>
+	<i>
+		Tuyet Trang Thi Pham<br>
+		Alf Håkon Lille-Mæhlum<br>
+		Espen Hellerud<br>
+	</i><br>
+	Copyright © t-townbilutleie.no
+	<br><a href="sitemap.html" class="sitemap-link">Sitemap</a>
+</footer>
 </body>
 </html>

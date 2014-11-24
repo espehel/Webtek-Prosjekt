@@ -16,28 +16,13 @@ header {
 	background-repeat: no-repeat;
 }
 
-#wrap {
-	clear: both;
-	min-height: 100%;
-	height: auto; !important;
-	margin-bottom: -225px;
-	margin: 0 auto;
-}
-
-#container-nav{
-	margin: 15px 0;
-	display: block;
-	float: left;
-	width: 100%;
-}
-
 .container {
-	margin-bottom: 40px;
 	max-width: 68em;
 	margin: 0 auto
 }
 
-nav {
+nav{
+	margin: 15px 0;
 	display: block;
 	float: left;
 	width: 100%;
@@ -45,14 +30,18 @@ nav {
 
 nav li {
 	float: left ;
-	display: inline;  margin: 0 80px 20px 0;
+	display: inline;
+	margin: 0 80px 20px 0;
 }
 
-.inline {
-	display: inline;  margin: 0 80px 20px 0;
+.inline-info-nav {
+	padding: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline;
 }
 
-nav li a {
+nav li a, ul li a {
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
@@ -60,7 +49,7 @@ nav li a {
 	color: black;
 }
 
-nav li a:hover {
+nav li a:hover, ul li a:hover {
 	color: #95b0cc;
 }
 
@@ -69,7 +58,7 @@ nav li a:hover {
 	padding-left: 5px;
 }
 
-.img-center{
+.img-center, .inline-info-nav-container{
 	text-align: center;
 }
 
@@ -103,13 +92,12 @@ footer {
 p { margin: 1em 0;}
 
 /*--------------- FAQ -----------------------------*/
-#faqList li {
+#faqList li  {
 	display: block;
 	background-color: #e6e3af;
 	margin-bottom: 20px;
 	padding: 10px;
 }
-
 /*---------------------- Cars ---------------------------*/
 .carBox {
 	float: left;
