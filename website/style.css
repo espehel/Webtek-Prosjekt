@@ -10,9 +10,11 @@ html,body {
 header {
 	display: block;
 	height: 380px;
-	position: relative;
-	text-align: center;
 	width: 100%;
+	background-image: url(img/header.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #wrap {
