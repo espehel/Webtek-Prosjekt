@@ -40,18 +40,19 @@
         
 		<form action="#" method="post" >
 			<div id="form" class="contentBox">
+			<fieldset>
 				<h2>Velg ønsket leilebil:</h2>
-				<label for="name">Navn:</label>
+				<label class="field" for="name">Navn:</label>
 			  <input type="text" name="name" required><br>
                 
-                <label for="adresse">Adresse:</label>
+                <label class="field" for="adresse">Adresse:</label>
 				<input type="text" name="adresse" required><br>
                 
-				<label for="email">Email:</label>
+				<label class="field" for="email">Email:</label>
 			  <input type="text" name="email" required><br><br>
                 
                 
-                <label for="bil">Biltype:</label>
+                <label class="field" for="bil">Biltype:</label>
 			  <select name="bil" required>
                 <option value>Velg bil</option>
                 <option value=1>Økonomi</option>
@@ -61,18 +62,19 @@
                 <option value=5>Varebil</option>
 			  </select><br />
                 
-              <label>Utlånsdato:</label>
+              <label class="field">Utlånsdato:</label>
 			  <input type="date" name="utlånsdato" required><br />
-              <label>Leveringsdato:</label>
+              <label class="field">Leveringsdato:</label>
 			  <input type="date" name="leveringsdato" required><br />
 
-				<label>Kommentar:</label><br />
+				<label class="field">Kommentar:</label><br />
 			  <textarea name="comments" rows=7 cols=50></textarea><br />
 
 
 				<br>
 				<input type="submit" value="Submit">
 		  </div>
+		  </fieldset>
   </form>
 
     </div>
