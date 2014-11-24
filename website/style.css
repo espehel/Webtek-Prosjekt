@@ -6,7 +6,6 @@ html,body {
 	height: 100%;
 }
 
-
 header {
 	display: block;
 	height: 380px;
@@ -94,7 +93,6 @@ footer {
 }
 
 p { margin: 1em 0;}
-
 /*--------------- FAQ -----------------------------*/
 #faqList li {
 	display: block;
@@ -103,17 +101,16 @@ p { margin: 1em 0;}
 	margin-bottom: 20px;
 	padding: 10px;
 }
-
 /*---------------------- Cars ---------------------------*/
 .carBox {
 	float: left;
 }
+
 .img-car {
 	border: 0;
 	width: 500px;
 	height: 300px;
 }
-
 /*------------------- Content design ----------------------*/
 #content {
 	margin-right: auto;
@@ -128,15 +125,11 @@ p { margin: 1em 0;}
 	padding: 20px;
 }
 /*------------------- Google map ----------------------------*/
-
 #map-canvas {
 	width: 100%;
 	height: 300px;
 }
-
 /*---------------------- Terms ---------------------------*/
-
 ol.a{	list-style-type: lower-alpha;  }
 ol.i{	list-style-type: lower-roman;  }
-
 /*-------------------- Forms---------------------------*/
