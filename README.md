@@ -1,10 +1,6 @@
 Webtek-Prosjekt
 ==============
 
-Validation of schema
---------------------
-When a user is filling out the form for order a rental car, this form will be validated
-
 
 CSS
 ---
@@ -14,6 +10,11 @@ We are using a single CSS file to style all the pages. Classes and selectors are
 XML
 ---
 XML are used to store data for the FAQ. We are then using javascript to retreive data from the XML document.
+
+
+Validation of schema
+--------------------
+The XML-schemas are validated against a DTD. The rules set by the DTD is very simple. <faq> is the root element. It contains an <item>. An <item> containts either a <question> or a <answer>. These two are both "#PCDATA" (parse-able text data). The DTD can be found in the top of our xml-data file.
 
 
 Javascript
