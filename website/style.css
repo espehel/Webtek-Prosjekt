@@ -5,27 +5,7 @@ html,body {
 	border: 0;
 	height: 100%;
 }
-fieldset {
-	width: 500px;
-}
-label.field{
-	text-align: right;
-	width: 100px;
-	float: left;
-	font-weight: bold;
-}
-input.tetbox-300{
-	width: 300px;
-	float: left;
-}
 
-#wrap {
-	clear: both;
-	min-height: 100%;
-	height: auto; !important;
-	margin-bottom: -225px;
-	margin: 0 auto
-}
 
 header {
 	display: block;
@@ -35,9 +15,11 @@ header {
 	width: 100%;
 }
 
-.container {
-	margin-bottom: 40px;
-	max-width: 68em;
+#wrap {
+	clear: both;
+	min-height: 100%;
+	height: auto; !important;
+	margin-bottom: -225px;
 	margin: 0 auto
 }
 
@@ -49,18 +31,16 @@ header {
 	margin-right: 0;
 }
 
+.container {
+	margin-bottom: 40px;
+	max-width: 68em;
+	margin: 0 auto
+}
+
 nav {
 	display: block;
 	float: left;
 	width: 100%;
-}
-
-.show-container-all:last-child{
-	margin-right: 0;
-}
-
-.show-container-all .description{
-	font-weight: lighter;
 }
 
 nav li {
@@ -89,8 +69,19 @@ nav li a:hover {
 	padding-left: 5px;
 }
 
-.img-car{
+.img-center{
 	text-align: center;
+}
+
+label {
+	width: 180px;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+input, label, textarea {
+	float: left;
 }
 
 footer {
@@ -112,8 +103,18 @@ p { margin: 1em 0;}
 	margin-bottom: 20px;
 	padding: 10px;
 }
-/*
-/*------------------- Content design ----------------------------*/
+
+/*---------------------- Cars ---------------------------*/
+.carBox {
+	float: left;
+}
+.img-car {
+	border: 0;
+	width: 500px;
+	height: 300px;
+}
+
+/*------------------- Content design ----------------------*/
 #content {
 	margin-right: auto;
 	margin-left: auto;
@@ -135,9 +136,7 @@ p { margin: 1em 0;}
 
 /*---------------------- Terms ---------------------------*/
 
-ol.a{
-	list-style-type: lower-alpha;
-}
-ol.i{
-	list-style-type: lower-roman;
-}
+ol.a{	list-style-type: lower-alpha;  }
+ol.i{	list-style-type: lower-roman;  }
+
+/*-------------------- Forms---------------------------*/
