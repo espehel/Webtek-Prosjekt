@@ -6,6 +6,13 @@ html,body {
 	height: 100%;
 }
 
+#wrap {
+	clear: both;
+	min-height: 100%;
+	height: auto; !important;
+	margin-bottom: -225px;
+}
+
 header {
 	display: block;
 	height: 380px;
@@ -14,12 +21,11 @@ header {
 	width: 100%;
 }
 
-#wrap {
-	clear: both;
-	min-height: 100%;
-	height: auto; !important;
-	margin-bottom: -225px;
-	margin: 0 auto
+.container {
+	margin-bottom: 40px;
+	max-width: 68em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #container-nav{
@@ -30,37 +36,39 @@ header {
 	margin-right: 0;
 }
 
-.container {
-	margin-bottom: 40px;
-	max-width: 68em;
-	margin: 0 auto
-}
-
 nav {
 	display: block;
 	float: left;
 	width: 100%;
 }
 
-nav li {
-	float: left ;
-	display: inline;  margin: 0 80px 20px 0;
+.show-container-all:last-child{
+	margin-right: 0;
 }
 
-.inline {
-	display: inline;  margin: 0 80px 20px 0;
+.show-container-all .description{
+	font-weight: lighter;
+}
+
+nav li {
+      float: left ;
 }
 
 nav li a {
-	display: block;
-	padding: 8px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
 }
 
 nav li a:hover {
-	color: #95b0cc;
+      color: #95b0cc;
+}
+
+section{
+	float: left;
+	padding-right: 50px;
 }
 
 .description{
@@ -68,50 +76,32 @@ nav li a:hover {
 	padding-left: 5px;
 }
 
-.img-center{
-	text-align: center;
-}
-
-label {
-	width: 180px;
-	clear: left;
-	text-align: right;
-	padding-right: 10px;
-}
-
-input, label, textarea {
-	float: left;
-}
-
 footer {
+	position: static;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+    padding: 10px;
 	background-color: black;
-	color:white;
+    color:white;
 	text-align: center;
-	margin-bottom: 0;
-	padding: 30px;
-	margin-top: 100px;
+	padding-top: 1em;
 }
 
+li {  display: inline;  margin: 0 80px 20px 0;}
 p { margin: 1em 0;}
+
 /*--------------- FAQ -----------------------------*/
 #faqList li {
-	display: block;
-	background-color: pink;
-	border: solid 2px black;
-	margin-bottom: 20px;
-	padding: 10px;
+    display: block;
+    background-color: ivory;
+    border: solid 2px black;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px 0;
 }
-/*---------------------- Cars ---------------------------*/
-.carBox {
-	float: left;
-}
-
-.img-car {
-	border: 0;
-	width: 500px;
-	height: 300px;
-}
-/*------------------- Content design ----------------------*/
+/*
+/*------------------- Content design ----------------------------*/
 #content {
 	margin-right: auto;
 	margin-left: auto;
@@ -124,7 +114,7 @@ p { margin: 1em 0;}
 	border: solid 2px black;
 	padding: 20px;
 }
-/*------------------- Google map ----------------------------*/
+
 #map-canvas {
 	width: 100%;
 	height: 300px;
@@ -139,3 +129,4 @@ ol.i{	list-style-type: lower-roman;  }
 }
 
 /*-------------------- Forms---------------------------*/
+
