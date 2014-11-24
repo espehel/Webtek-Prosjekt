@@ -68,6 +68,10 @@ nav li {
 	display: inline;  margin: 0 80px 20px 0;
 }
 
+.inline {
+	display: inline;  margin: 0 80px 20px 0;
+}
+
 nav li a {
 	display: block;
 	padding: 8px 15px;
