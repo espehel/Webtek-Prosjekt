@@ -98,7 +98,7 @@ p { margin: 1em 0;}
 /*--------------- FAQ -----------------------------*/
 #faqList li {
 	display: block;
-	background-color: pink;
+	background-color: #e6e3af;
 	border: solid 2px black;
 	margin-bottom: 20px;
 	padding: 10px;
