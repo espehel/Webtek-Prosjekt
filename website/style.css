@@ -1,4 +1,4 @@
-html,body {
+html, body {
 	font-family: "futura-pt", sans-serif;
 	margin: 0;
 	padding: 0;
@@ -122,7 +122,7 @@ p { margin: 1em 0;}
 	width: 100%;
 	height: 300px;
 }
-/*-----------------------Bestill---------------------------*/
+/*---------------------- Bestill --------------------------*/
 
 .inline-info-nav {
 	padding: 30px;
@@ -135,7 +135,7 @@ p { margin: 1em 0;}
 ol.a{	list-style-type: lower-alpha;  }
 ol.i{	list-style-type: lower-roman;  }
 
-/*-----------------------Sitemap---------------------------*/
+/*---------------------- Sitemap --------------------------*/
 .sitemap-link{
 	color: #FFFFFF;
 }
