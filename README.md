@@ -19,7 +19,12 @@ The XML-schemas are validated against a DTD. The rules set by the DTD is very si
 
 Javascript
 ----------
-Javascript used clientside. It is used for the slideshow, presenting cars for rental. It is also used for the map, there is controlls the interface and communicates with the google API. We are also using Javascript to read data from XML and insert it into a HTML document.
+Javascript is used clientside. It is used for the map, there it controlls the interface and communicates with the google API. We are also using Javascript to read data from XML and insert it into a HTML document. Javascript is also used for the canvas element.
+
+
+Canvas
+------
+Canvas is used to present cars as an slideshow on the home page. The javascript loads the images and switch them in the canvas by using a recursive function as a loop, every 3rd second.
 
 
 Serverside
