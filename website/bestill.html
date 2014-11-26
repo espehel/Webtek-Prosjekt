@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head lang="utf-8">
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="scripts/bilinfo.js"></script>
@@ -58,15 +58,15 @@
                     <option value=5>Varebil</option>
                 </select><br />
 
-                <label class="field">Utlånsdato:</label>
+                <label class="field" for="utlånsdato">Utlånsdato:</label>
 
 
-                <input type="date" name="utlånsdato" required><br />
-                <label class="field">Leveringsdato:</label>
+                <input type="text" name="utlånsdato" required><br />
+                <label class="field" for="leveringsdato">Leveringsdato:</label>
 
-                <input type="date" name="leveringsdato" required><br />
+                <input type="text" name="leveringsdato" required><br />
 
-                <label class="field">Kommentar:</label><br />
+                <label class="field" for="comments">Kommentar:</label><br />
 
                 <textarea name="comments" rows=7 cols=50></textarea>
                 <div class="space">
