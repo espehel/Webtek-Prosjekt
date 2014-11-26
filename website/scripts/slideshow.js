@@ -1,4 +1,3 @@
-
 //counter for when all images are loaded
 var loaded = 0, numOfImages = 5, counter = 0;
 
@@ -22,16 +21,15 @@ window.onload = function(e) {
 
 //for when all images is loaded, will happen after document is loaded
 image0.onload = image1.onload = image2.onload = image3.onload= image4.onload = function(e) {
-		loaded++;
-		if (loaded === numOfImages)
-			draw();
-	}
+	loaded++;
+	if (loaded === numOfImages)
+		draw();
+}
 
 //show if any error occurs
-image0.onerror = image1.onerror =
-	image2.onerror = image3.onerror = image4.onerror = function(e) {
-		alert(e.toString());
-	}
+image0.onerror = image1.onerror = image2.onerror = image3.onerror = image4.onerror = function(e) {
+	alert(e.toString());
+}
 
 
 //draws the images in a loop

@@ -1,4 +1,3 @@
-
 window.addEventListener("load", function(event){
 
 	var faqList = document.getElementById('faqList');
