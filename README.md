@@ -26,6 +26,11 @@ Canvas
 ------
 Canvas is used to present cars as an slideshow on the home page. The javascript loads the images and switch them in the canvas by using a recursive function as a loop, every 3rd second.
 
+Image
+-------------
+The images that we are using is compressed in two different formats, jpg and png. The images of cars is downloaded from the web in the jpg format. This is a lossy compression, so some of the quality is lost. We have created the header and compressed it to png format. This is a lossless compression, so the quality is maintained, but the images are a bit larger, but hardly noticable. 
+The sources for the images used, can be found in the file "carSources.txt".
+
 
 Serverside
 ----------
