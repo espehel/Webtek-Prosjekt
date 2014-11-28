@@ -29,13 +29,13 @@ nav{
 	width: 100%;
 }
 
-nav ul{
+nav li{
 	float: left ;
 	display: inline;
 	margin: 0 45px 20px 0;
 }
 
-nav ul a, ul ul a {
+nav li a, ul li a {
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
@@ -43,11 +43,11 @@ nav ul a, ul ul a {
 	color: black;
 }
 
-nav ul a {
+nav li a {
 	color: white;
 }
 
-nav ul a:hover, li ul a:hover {
+nav li a:hover, li ul a:hover {
 	color: #95b0cc;
 }
 
@@ -89,7 +89,7 @@ footer {
 	text-align: center;
 	margin-bottom: 0;
 	padding: 30px;
-	margin-top: 100px;
+	margin-top: 100px;22:01 28.11.2014
 }
 
 p { margin: 1em 0;}
