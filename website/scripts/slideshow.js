@@ -11,11 +11,11 @@ var image4 = document.createElement('img');
 
 //starts loading images when page is loaded
 window.onload = function(e) {
-	image0.src = "img/utleiebiler/suv.jpg";
-	image1.src = "img/utleiebiler/stasjonsvogn.jpg";
-	image2.src = "img/utleiebiler/okonomi.jpg";
-	image3.src = "img/utleiebiler/luksus.jpg";
-	image4.src = "img/utleiebiler/liten.jpg";
+	image0.src = "img/cars/suv.jpg";
+	image1.src = "img/cars/stationwagon.jpg";
+	image2.src = "img/cars/eco.jpg";
+	image3.src = "img/cars/luxury.jpg";
+	image4.src = "img/cars/small.jpg";
 
 }
 
