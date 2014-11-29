@@ -144,3 +144,11 @@ ol.i{	list-style-type: lower-roman;  }
 .sitemap-link{
 	color: #fff;
 }
+
+.sitemap-list a {
+		display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
