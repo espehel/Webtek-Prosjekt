@@ -35,7 +35,7 @@ nav li{
 	margin: 0 45px 20px 0;
 }
 
-nav li a, ul li a {
+nav li a {
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
